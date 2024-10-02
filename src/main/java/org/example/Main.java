@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter '1' for collections task, '2' for primes generator task, or 'exit' to quit:");
+            System.out.println("Enter '1' for collections, '2' for generator task, or 'exit' to quit:");
             String choice = scanner.nextLine();
 
             if (choice.equals("exit")) {

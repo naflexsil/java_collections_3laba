@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b5190ab-4334-4151-8d60-26e264ac3689" name="Changes" comment="add first task and test to it">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrimesGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PrimesGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="1b5190ab-4334-4151-8d60-26e264ac3689" name="Changes" comment="first commit + add task first and test, working on second task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "naflexsil"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/naflexsil/java_collections_3laba.git",
+    "accountId": "d8e2c670-d6a3-45e6-a1b0-621c016b711e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -106,11 +113,20 @@
       <option name="project" value="LOCAL" />
       <updated>1727865956629</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit + add task first and test, working on second task">
+      <option name="closed" value="true" />
+      <created>1727890237781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727890237781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add first task and test to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="add first task and test to it" />
+    <MESSAGE value="first commit + add task first and test, working on second task" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit + add task first and test, working on second task" />
   </component>
 </project>
