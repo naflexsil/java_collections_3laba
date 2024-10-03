@@ -7,7 +7,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("enter '1' for task with Collections, '2' for PrimesGenerator or 'exit':");
+            System.out.println("enter '1' for Collections, '2' for PrimesGenerator, '3' for Human, " +
+                    "'4' for LineEnglish, '5' for MapMap or 'exit':");
             String choice = scanner.nextLine();
 
             if (choice.equals("exit")) {
@@ -23,6 +24,15 @@ public class Main {
                     System.out.println("enter number of prime numbers to generate:");
                     int n = Integer.parseInt(scanner.nextLine());
                     PrimesGeneratorTest.printPrimes(n);
+                    break;
+                case "3":
+                    Human.handleHumanTasks();
+                    break;
+                case "4":
+                    LineEnglish.handleWordFrequencyTask();
+                    break;
+                case "5":
+                    MapMap.handleSwapTask();
                     break;
                 default:
                     System.out.println("error!!!!!!!");
