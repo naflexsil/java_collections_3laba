@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b5190ab-4334-4151-8d60-26e264ac3689" name="Changes" comment="lot of changes, add 2 tasks and a test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LineEnglish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MapMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HumanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MapMapTest.java" afterDir="false" />
+    <list default="true" id="1b5190ab-4334-4151-8d60-26e264ac3689" name="Changes" comment="add 4 and 5 tasks, working on tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LineEnglishTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MapMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MapMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,21 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.CollectionsArrayTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HumanTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HumanTest.testCompareTo.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.HumanTest.testCreation.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.java_collections_3laba [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/StaRR/IdeaProjects/java_collections_3laba/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.CollectionsArrayTest.executor": "Run",
+    "Gradle.HumanTest.executor": "Run",
+    "Gradle.HumanTest.testCompareTo.executor": "Debug",
+    "Gradle.HumanTest.testCreation.executor": "Debug",
+    "Gradle.LineEnglishTest.executor": "Run",
+    "Gradle.MapMapTest.executor": "Run",
+    "Gradle.java_collections_3laba [:org.example.Main.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/StaRR/IdeaProjects/java_collections_3laba/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -148,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727932366300</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add 4 and 5 tasks, working on tests">
+      <option name="closed" value="true" />
+      <created>1727975365601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727975365601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add first task and test to it" />
     <MESSAGE value="first commit + add task first and test, working on second task" />
     <MESSAGE value="lot of changes, add 2 tasks and a test" />
-    <option name="LAST_COMMIT_MESSAGE" value="lot of changes, add 2 tasks and a test" />
+    <MESSAGE value="add 4 and 5 tasks, working on tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 4 and 5 tasks, working on tests" />
   </component>
 </project>
