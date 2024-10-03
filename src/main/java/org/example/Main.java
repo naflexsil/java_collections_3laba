@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter '1' for collections, '2' for generator task, or 'exit' to quit:");
+            System.out.println("enter '1' for task with Collections, '2' for PrimesGenerator or 'exit':");
             String choice = scanner.nextLine();
 
             if (choice.equals("exit")) {
@@ -16,20 +16,23 @@ public class Main {
 
             switch (choice) {
                 case "1":
-                    System.out.println("Running collections task...");
+                    System.out.println("Collections task");
+                    handleCollectionsTasks(scanner);
                     break;
                 case "2":
-                    System.out.println("Running primes generator task...");
+                    System.out.println("enter number of prime numbers to generate:");
+                    int n = Integer.parseInt(scanner.nextLine());
+                    PrimesGeneratorTest.printPrimes(n);
                     break;
                 default:
-                    System.out.println("Invalid choice!");
+                    System.out.println("error!!!!!!!");
             }
         }
     }
 
     private static void handleCollectionsTasks(Scanner scanner) {
         while (true) {
-            System.out.println("choose a - j or type 'back' to return to main menu:");
+            System.out.println("enter a - j or 'back' return to menu:");
             String choice = scanner.nextLine();
 
             if (choice.equals("back")) {
@@ -68,8 +71,9 @@ public class Main {
                     CollectionsArray.countOccurrences();
                     break;
                 default:
-                    System.out.println("Invalid choice! Please choose a - j.");
+                    System.out.println("error!!!!!!! enter a - j");
             }
         }
     }
 }
+
